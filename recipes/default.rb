@@ -96,4 +96,4 @@ template "#{node['apache']['dir']}/sites-available/jira.conf" do
   mode 0644
 end
 
-apache_site "jira.conf"
+apache2_site "jira.conf"
